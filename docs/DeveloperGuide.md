@@ -348,15 +348,21 @@ In the example above, the user story is clearly defined at the top, followed by 
 
   Use case ends.
 
-* 3a. The list is empty.
+* 4a. The list is empty.
 
   Use case ends
 
-* 3a. The given index is invalid.
+* 5a. The given person index is invalid.
 
-    * 3a1. OfficeConnect shows an error message.
+    * 5a1. OfficeConnect shows an error message.
 
       Use case resumes at step 2.
+  
+* 5b. The given task index is invalid.
+
+    * 5a1. OfficeConnect shows an error message.
+
+      Use case resumes at step 4.
 
 *{More to be added}*
 
